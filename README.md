@@ -9,7 +9,7 @@ https://demo.testfire.net/
 
 The assessment followed a **black-box approach**, focusing on identifying security weaknesses without exploiting them.
 
-## Objectives
+# Objectives
 - Perform reconnaissance and network analysis  
 - Identify open ports and services  
 - Detect web application vulnerabilities  
@@ -17,14 +17,14 @@ The assessment followed a **black-box approach**, focusing on identifying securi
 - Provide remediation recommendations  
 
 
-## Tools Used
+# Tools Used
 - **Kali Linux** – Testing environment  
 - **Nmap** – Port scanning & service detection  
 - **OWASP ZAP** – Vulnerability scanning (Spider + Active Scan)  
 - **Browser DevTools** – Header & cookie analysis  
 
 
-## Methodology
+# Methodology
 
 ### 1. Reconnaissance
 - Checked connectivity using ping  
@@ -44,7 +44,6 @@ The assessment followed a **black-box approach**, focusing on identifying securi
 - Inspected HTTP headers and cookies  
 - Checked for information disclosure  
 
----
 
 ## Key Findings
 
@@ -55,28 +54,28 @@ A total of **19 security issues** were identified:
 - Low: 7  
 - Informational: 5  
 
-### Critical Vulnerabilities
+# Critical Vulnerabilities
 - **SQL Injection (4 instances)**  
   → Risk of database access and manipulation  
 
 - **Reflected XSS (2 instances)**  
   → Execution of malicious scripts in user browsers  
 
-### Other Issues
+# Other Issues
 - Missing security headers (CSP, HSTS, X-Frame-Options)  
 - No CSRF protection  
 - Weak cookie configurations  
 - Server version disclosure  
 - Mixed content issues  
 
-## Risk Assessment
+# Risk Assessment
 > **Overall Risk Level: HIGH**
 These vulnerabilities could lead to:
 - Data breaches  
 - Account compromise  
 - Unauthorized transactions  
 
-## Remediation Summary
+# Remediation Summary
 - Use **parameterized queries** to prevent SQL Injection  
 - Implement **output encoding** to prevent XSS  
 - Add security headers (CSP, HSTS, X-Frame-Options, X-Content-Type-Options)  
@@ -84,12 +83,12 @@ These vulnerabilities could lead to:
 - Implement **CSRF protection**  
 - Remove sensitive server information  
 
-## Key Learnings
+# Key Learnings
 - Learned structured vulnerability assessment methodology  
 - Gained hands-on experience with Nmap & OWASP ZAP  
 - Understood real-world impact of vulnerabilities in banking systems  
 - Improved ability to explain technical risks clearly  
 
-##  Conclusion
+# Conclusion
 This project helped me understand that cybersecurity is not just about finding vulnerabilities, but about **analyzing risk, prioritizing fixes, and communicating effectively**.
 
