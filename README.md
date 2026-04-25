@@ -92,3 +92,5 @@ These vulnerabilities could lead to:
 # Conclusion
 This project helped me understand that cybersecurity is not just about finding vulnerabilities, but about **analyzing risk, prioritizing fixes, and communicating effectively**.
 
+[Task 1 Vulnerability Assessment Report.pdf](https://github.com/user-attachments/files/27081789/Task.1.Vulnerability.Assessment.Report.pdf)
+
